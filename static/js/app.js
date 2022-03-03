@@ -27,7 +27,9 @@ function buildTable(data) {
 
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
+// Create a variable to keep track of the number or results
 var resultLength = data.length;
+//spit it to the console for debugging
 console.log(resultLength);
 
 // 3. Use this function to update the filters. 
@@ -39,6 +41,7 @@ function updateFilters() {
     // 4b. Save the value that was changed as a variable.
     // convert to lower case to accomodate user entry
     let filterValue = changedElement.property("value").toLowerCase();
+    //more debugging for fun
     console.log(filterValue);
 
     // 4c. Save the id of the filter that was changed as a variable.
