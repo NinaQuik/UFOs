@@ -8,3 +8,10 @@ body {
     background-size: 100% 100%;
     text-align: center;
 } 
+.result-output{
+  text-align:center;
+}
+input[type=text] {
+  background-color: #616169;
+  color: white;
+}
