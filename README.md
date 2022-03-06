@@ -4,22 +4,30 @@ This project uses JavaScript, HTML and CSS to build a dynamic page that displays
 
 ### Tools
 - Bootstrap 4.0
-- DS.js 4.11
+- D3.js version 4.11
 
 ## Results
 
-The page is loaded with a blurb about UFO sightings and a table containing all 111 records stored in the data.js file.
+The page is initially loaded with a blurb about UFO sightings and a table containing all 111 records that were found in the [data.js](/static/data.js) file.
 
 ![Default](/resources/Default.png)
 
 ### Filtering
 
-On the left hand side, users can filter by date, city, state, country, shape, or combinations of each.
+On the left hand side of the page, users can filter by date, city, state, country, shape, or combinations of each.
 
-Filtering By Date:
+Here's an example of filtering By Date:
 
 ![Date](/resources/filterByDate.png)
 
-Filtering By Date and Shape:
+And an example of filtering combinations; Date and Shape:
 
 ![Combo](/resources/filterByDateShape.png)
+
+Note that the number of results are returned each time a new filter is applied or cleared.
+
+### Responsiveness
+
+Because the webpage uses Bootstrap 4.0 grid system it is mobile-responsive.  Here's how the page would look on an iPad Mini:
+
+![ipad](/resources/responsive.png)
