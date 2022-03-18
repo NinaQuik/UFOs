@@ -1,4 +1,5 @@
 # UFOs
+Build an interactive webpage to analyze UFO sightings using HTML, CSS, JavaScript and Bootstrap.
 ## Overview
 This project uses JavaScript, HTML and CSS to build a dynamic page that displays a table of UFO sightings that were reported during the early weeks of 2010.  The UFO sighting data is retrieved from a JavaScript array, and then read into an HTML table.  JavaScript is utilized to allow users to filter the table based on attributes of the UFO sightings.
 
